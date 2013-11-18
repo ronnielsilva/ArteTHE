@@ -75,7 +75,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 273,
+				"buffer_size": 324,
 				"line_ending": "Windows"
 			}
 		},
@@ -407,7 +407,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 324,
 						"regions":
 						{
 						},
