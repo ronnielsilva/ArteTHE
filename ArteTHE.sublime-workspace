@@ -75,7 +75,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 324,
+				"buffer_size": 341,
 				"line_ending": "Windows"
 			}
 		},
@@ -174,7 +174,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -407,7 +407,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 324,
+						"buffer_size": 341,
 						"regions":
 						{
 						},
