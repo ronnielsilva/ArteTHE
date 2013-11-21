@@ -66,7 +66,7 @@
       <form class="form-signin">
         <h2 class="form-signin-heading"><center>Cadastro</center></h2>
         <label>Nome</label>
-        <input type="text" class="input-block-level" placeholder="Usuario">
+        <input type="text" class="input-block-level"  placeholder="Usuario">
         <label>Email</label>
         <input type="text" class="input-block-level" placeholder="Email address">
         <label>Senha</label>

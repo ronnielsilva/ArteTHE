@@ -1,0 +1,2 @@
+eu criei essa pasta so pra testar aquele efeito carousel jquery
+so pra efeito de teste

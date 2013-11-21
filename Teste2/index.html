@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://jquery.malsup.com/cycle/basic.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JQuery Cycle Plugin - Basic Demo</title>
+<style type="text/css">
+.slideshow { height: 232px; width: 232px; margin: auto }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+</style>
+<!-- include jQuery library -->
+<script type="text/javascript" src="./JQuery Cycle Plugin - Basic Demo_files/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="./JQuery Cycle Plugin - Basic Demo_files/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        });
+});
+</script>
+</head>
+<body>
+	<div class="slideshow" style="position: relative;">
+		<img src="./JQuery Cycle Plugin - Basic Demo_files/beach1.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;">
+		<img src="./JQuery Cycle Plugin - Basic Demo_files/beach2.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 5; opacity: 0.002684594004283891; width: 200px; height: 200px;">
+		<img src="./JQuery Cycle Plugin - Basic Demo_files/beach3.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 0.9973154059957161; width: 200px; height: 200px;">
+		<img src="./JQuery Cycle Plugin - Basic Demo_files/beach4.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;">
+		<img src="./JQuery Cycle Plugin - Basic Demo_files/beach5.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;">
+	</div>
+
+
+</body></html>

@@ -213,13 +213,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-
-
-#############
-## Sublime Text
-#############
-
-#*.sublime-project
-#*.sublime-workspace
-/ArteTHE.sublime-project
-/ArteTHE.sublime-workspace
