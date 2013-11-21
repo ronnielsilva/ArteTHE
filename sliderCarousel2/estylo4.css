@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#carrosel{
+	width: 750px;
+	height: 250px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#carrosel ul{
+	list-style: none;
+}
+
+#carrosel ul li{
+	float: left;
+	display: inline;
+}

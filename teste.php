@@ -10,22 +10,17 @@
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/js/bootstrap.min.js" rel="stylesheet">
-    <link href="bootstrap/img/glyphicons-halflings-white.png" rel="stylesheet">
+    <link href="bootstrap/js/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/img/glyphicons-halflings.png" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-        background-color: inherit;
       }
-      
 
-
-
-      
-
-
-
+      .cor{
+        color:red;
+      }
     </style>
 
     <style type="text/javascript">
@@ -51,8 +46,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top"> 
-
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -60,18 +54,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand"><i>Arte Piaui</i></a>
+          <a class="brand" href="#"><i class="cor">Arte Piaui</i></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-             <!-- <li class="active"><a href="#">Home</a></li> -->
-            <!--  <li><a href="#about">Sobre</a></li> -->
-             <!-- <li><a href="#contact">Contatos</a></li> -->
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#contact">Contatos</a></li>
              
             </ul>
             <form class="navbar-form pull-right">
-              
               <input class="span2" type="text" placeholder="Digite seu Email">
-              <input class="span2" type="password" placeholder="Digite sua senha">
+              <input class="span2" type="password" placeholder="Digite seu Password">
               <button type="submit" class="btn">Entre</button>
               <button type="button" class="btn" onclick="window.location.href = 'cadastroTeste.php' " >Cadastrar</button>
             </form>
@@ -80,51 +73,67 @@
       </div>
     </div>
 
-   <div class="container"> 
+    <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">  <!-- div hero-unit-->
+      <div class="hero-unit"> 
         <!--<h1>Hello, world!</h1> (1) -->
         
        <!-- <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
 
 
 
-              <div id="myCarousel" class="carousel slide"> <!-- primeiro div-->
-
-                          
-
-                          <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active" style = "margin-left: 200px; margin-top: 50px;"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1" style = "margin-left: 10px; margin-top: 50px;">                                      
-                                    </li>
-                                    <li data-target="#myCarousel" data-slide-to="2" style = "margin-left: 10px; margin-top: 50px;" ></li>
-                                    <li data-target="#myCarousel" data-slide-to="3" style = "margin-left: 10px; margin-top: 50px;" ></li>
-                                    <li data-target="#myCarousel" data-slide-to="4" style = "margin-left: 10px; margin-top: 50px;" ></li>                                    
-                          </ol>
+    <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
     <!-- Carousel items -->
-                          <div class="carousel-inner"> <!-- segundo div-->
-                                
-                               <div class="active item">
-                                                                 
-                               </div>
-                               
-                          </div> <!-- segundo div -->
+    <div class="carousel-inner">
+    <div class="active item">…</div>
+    <div class="item"></div>
+    <div class="item"></div>
+    </div>
     <!-- Carousel nav -->
-            <!--     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a> -->
-             <!--     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a> -->
-             </div> <!-- primeiro div -->
-     </div> <!--div hero unit -->
-     <hr> <!-- linha horizontal -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
 
-    
 
-       
+
+
+
+
+
+      </div> <!--( 1)  -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
 
     </div> <!-- /container -->
-
-
-
 
     <!-- Le javascript
     ================================================== -->
