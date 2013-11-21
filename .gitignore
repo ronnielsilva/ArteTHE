@@ -219,7 +219,7 @@ pip-log.txt
 ## Sublime Text
 #############
 
-*.sublime-project
-*.sublime-workspace
-ArteTHE.sublime-project
-ArteTHE.sublime-workspace
+#*.sublime-project
+#*.sublime-workspace
+/ArteTHE.sublime-project
+/ArteTHE.sublime-workspace
